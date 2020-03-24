@@ -1,0 +1,49 @@
+body {
+    background-color: #1976d2;
+}
+
+center {
+    padding-top: 30px;
+}
+
+#title {
+    color: #263238;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#countdown {
+    color: #1976d2;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#logo {
+    background-image: url("../img/logo.png");
+}
+
+.demo-card-square.mdl-card {
+    width: 360px;
+    height: 360px;
+}
+
+.demo-card-square>.mdl-card__title {
+    color: #fafafa;
+    background-color: #fafafa;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 480px) {
+    #title {
+        font-size: 22px;
+    }
+
+    .demo-card-square.mdl-card {
+        width: 320px;
+        height: 320px;
+    }
+}
